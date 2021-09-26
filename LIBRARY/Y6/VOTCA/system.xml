@@ -1,0 +1,45 @@
+<topology>
+	<molecules>
+		<molecule>
+			<name>Y6</name>
+			<mdname>Y6</mdname>
+			<segments>
+				<segment>
+					<name>Y6</name>
+					<qmcoords>QC_FILES/system.xyz</qmcoords>
+					<basisset>INDO</basisset>
+                			<multipoles_n>MP_FILES/n.mps</multipoles_n>
+					<multipoles_e>MP_FILES/e.mps</multipoles_e>
+					<multipoles_h>MP_FILES/h.mps</multipoles_h>
+					<map2md>0</map2md>
+					<fragments>
+						<fragment>
+							<name>core</name>
+							<mdatoms>  1:LIG:S15   1:LIG:N5     1:LIG:N6    1:LIG:C20   1:LIG:C21    1:LIG:C25    1:LIG:C26    1:LIG:S16    1:LIG:C29    1:LIG:C30    1:LIG:C31    1:LIG:S17    1:LIG:C28     1:LIG:C27     1:LIG:N7    1:LIG:C24    1:LIG:C23   1:LIG:N8    1:LIG:C49    1:LIG:C50    1:LIG:S19    1:LIG:C53    1:LIG:C52    1:LIG:C51    1:LIG:S18    1:LIG:C48    1:LIG:C22     1:LIG:C78     1:LIG:H79   1:LIG:H80    1:LIG:H81   1:LIG:C70   1:LIG:H71    1:LIG:H72    1:LIG:H73    1:LIG:C74    1:LIG:H75    1:LIG:H76    1:LIG:H77    1:LIG:C82    1:LIG:H83     1:LIG:H84     1:LIG:H85   1:LIG:C32    1:LIG:H33   1:LIG:C54   1:LIG:H55    </mdatoms>
+							<qmatoms>      1:S         6:N          7:N        10:C        13:C         14:C         26:C          4:S         33:C         53:C         44:C          5:S         24:C          31:C          11:N        22:C         23:C         9:N        30:C         17:C          3:S         37:C         36:C         21:C          2:S         15:C         19:C          65:C          74:H        75:H         76:H        71:C        80:H         81:H         82:H         70:C         77:H         78:H         79:H         73:H         83:H          84:H          85:H        42:C         67:H        28:C        29:H      </qmatoms>
+							<mpoles>       1:S         6:N          7:N        10:C        13:C         14:C         26:C          4:S         33:C         53:C         44:C          5:S         24:C          31:C          11:N        22:C         23:C         9:N        30:C         17:C          3:S         37:C         36:C         21:C          2:S         15:C         19:C          65:C          74:H        75:H         76:H        71:C        80:H         81:H         82:H         70:C         77:H         78:H         79:H         73:H         83:H          84:H          85:H        42:C         67:H        28:C        29:H       </mpoles>
+							<weights>       32          14           14          12          12           12           12           32           12           12           12           32           12           12             14          12           12          14          12           12           32           12           12           12           32           12           12           12              1           1            1          12           1            1            1           12            1            1            1            1            1            1              1          12            1          12           1</weights>
+							<localframe>  1   3   5  </localframe>
+						</fragment>
+                                                <fragment>
+                                                        <name>IC_1</name>
+                                                        <mdatoms>  1:LIG:C35    1:LIG:C34    1:LIG:O13   1:LIG:C38    1:LIG:C39    1:LIG:H40   1:LIG:C41   1:LIG:F1      1:LIG:C42    1:LIG:F2    1:LIG:C43   1:LIG:H44     1:LIG:C37     1:LIG:C36     1:LIG:C45    1:LIG:C46    1:LIG:N9    1:LIG:C47    1:LIG:N10    </mdatoms>
+                                                        <qmatoms>     38:C         20:C         12:O        55:C         56:C         68:H        57:C        16:F        58:C          35:F         59:C        69:H          54:C          41:C          43:C         62:C         61:N        64:C         72:N      </qmatoms>
+                                                        <mpoles>      38:C         20:C         12:O        55:C         56:C         68:H        57:C        16:F        58:C          35:F         59:C        69:H          54:C          41:C          43:C         62:C         61:N        64:C         72:N      </mpoles>
+                                                        <weights>      12           12          16            12           12            1          12          19          12           19           12           1            12            12           12           12          14            12           14       </weights>
+                                                        <localframe>  38   43   57 </localframe>
+                                                </fragment>
+                                                <fragment>
+                                                        <name>IC_2</name>
+                                                        <mdatoms>  1:LIG:C57    1:LIG:C56    1:LIG:O14   1:LIG:C60    1:LIG:C61    1:LIG:H62   1:LIG:C63   1:LIG:F3     1:LIG:C64    1:LIG:F4     1:LIG:C65   1:LIG:H66     1:LIG:C59     1:LIG:C58     1:LIG:C67    1:LIG:C68    1:LIG:N11   1:LIG:C69    1:LIG:N12    </mdatoms>
+                                                        <qmatoms>     27:C         32:C          8:O        45:C         51:C         52:H        50:C        18:F         49:C         25:F         47:C        48:H          46:C          39:C          66:C         40:C         34:N        60:C         63:N      </qmatoms>
+                                                        <mpoles>      27:C         32:C          8:O        45:C         51:C         52:H        50:C        18:F         49:C         25:F         47:C        48:H          46:C          39:C          66:C         40:C         34:N        60:C         63:N      </mpoles>
+                                                        <weights>      12           12          16            12           12            1          12          19          12            19          12           1            12            12           12           12          14            12           14       </weights>
+                                                        <localframe> 27  50  66 </localframe>
+                                                </fragment>
+					</fragments>
+				</segment>
+			</segments>
+		</molecule>
+	</molecules>
+</topology>

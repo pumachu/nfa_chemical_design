@@ -1,0 +1,1 @@
+create ewald_pairn.xml for n = 1~N, where N is the number of pairs to be considered within the cutoff

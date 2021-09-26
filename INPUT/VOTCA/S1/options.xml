@@ -1,0 +1,80 @@
+
+<options>
+    <jobwriter> 
+        <keys>mps.background mps.chrg</keys>
+        <states>n h</states>
+        <single_id>100</single_id>
+        <kmc_cutoff>3.0</kmc_cutoff>
+    </jobwriter>
+
+
+    <ewdbgpol>
+        <multipoles>system.xml</multipoles>
+        <control>
+            <mps_table>jobwriter.mps.background.tab</mps_table>
+            <pdb_check>0</pdb_check>
+        </control>
+       <coulombmethod>
+            <method>ewald</method>
+            <cutoff>6</cutoff>
+            <shape>xyslab</shape>
+            <dipole_corr>true</dipole_corr>
+            <dipole_corr_type>segment</dipole_corr_type>
+            <dipole_corr_direction>xyz</dipole_corr_direction>
+        </coulombmethod>
+        <polarmethod>
+            <method>thole</method>
+            <induce>1</induce>
+            <cutoff>0</cutoff>
+        </polarmethod>
+        <convergence>
+            <energy>1e-05</energy>
+            <kfactor>100</kfactor>
+            <rfactor>6</rfactor>
+        </convergence>
+  </ewdbgpol>
+
+    <ewald>
+        <jobcontrol>
+		<job_file>path_to_file/jobwriter.mps.chrg.xml</job_file>
+        </jobcontrol>
+        <multipoles>
+            <mapping>system.xml</mapping>
+            <mps_table>jobwriter.mps.background.tab</mps_table>
+            <polar_bg>bgp_main.ptop</polar_bg>
+            <pdb_check>0</pdb_check>
+        </multipoles>
+        <coulombmethod>
+            <method>ewald</method>
+            <cutoff>6</cutoff>
+            <shape>xyslab</shape>
+            <save_nblist>false</save_nblist>
+        </coulombmethod>
+        <polarmethod>
+            <method>thole</method>
+            <induce>1</induce>
+            <cutoff>4</cutoff>
+            <tolerance>0.001</tolerance>
+            <radial_dielectric>4.</radial_dielectric>
+        </polarmethod>
+        <tasks>
+            <calculate_fields>true</calculate_fields>
+            <polarize_fg>true</polarize_fg>
+            <evaluate_energy>true</evaluate_energy>
+            <apply_radial>false</apply_radial>
+        </tasks>
+        <coarsegrain>
+            <cg_background>false</cg_background>
+            <cg_foreground>false</cg_foreground>
+            <cg_radius>4</cg_radius>
+            <cg_anisotropic>true</cg_anisotropic>
+        </coarsegrain>
+        <convergence>
+            <energy>1e-05</energy>
+            <kfactor>100</kfactor>
+            <rfactor>6</rfactor>
+            </convergence>
+    </ewald>
+
+</options>
+

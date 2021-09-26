@@ -1,0 +1,93 @@
+<topology>
+	<molecules>
+		<molecule>
+			<name>IECIO-4Cl</name>
+			<mdname>IECIO-4Cl</mdname>
+			<segments>
+				<segment>
+					<name>IECIO-4Cl</name>
+					<qmcoords>QC_FILES/system.xyz</qmcoords>
+					<basisset>INDO</basisset>
+                			<multipoles_n>MP_FILES/n.mps</multipoles_n>
+					<multipoles_e>MP_FILES/e.mps</multipoles_e>
+					<multipoles_h>MP_FILES/h.mps</multipoles_h>
+					<map2md>0</map2md>
+					<fragments>
+						<fragment>
+							<name>core</name>
+							<mdatoms>  1:LIG:S1    1:LIG:C29    1:LIG:C6    1:LIG:H7    1:LIG:C24    1:LIG:C26    1:LIG:C15    1:LIG:C90    1:LIG:C19    1:LIG:C76    1:LIG:H77    1:LIG:C8     1:LIG:H9     1:LIG:C87      1:LIG:C94   1:LIG:C22    1:LIG:C92   1:LIG:C83   1:LIG:S69    1:LIG:C97    1:LIG:C74    1:LIG:H75  </mdatoms>
+							<qmatoms>      1:S        29:C          6:C         7:H        24:C         26:C         15:C         90:C         19:C         76:C         77:H          8:C          9:H         87:C           94:C        22:C         92:C        83:C        69:S         97:C         74:C         75:H  </qmatoms>
+							<mpoles>       1:S        29:C          6:C         7:H        24:C         26:C         15:C         90:C         19:C         76:C         77:H          8:C          9:H         87:C           94:C        22:C         92:C        83:C        69:S         97:C         74:C         75:H  </mpoles>
+							<weights>       32          12           12           1          12           12           12           12           12           12            1           12            1           12             12          12           12          12          32           12           12            1   </weights>
+							<localframe>  1   69    76  </localframe>
+						</fragment>
+						<fragment>
+							<name>BEN_1</name>
+							<mdatoms>  1:LIG:C10    1:LIG:H11    1:LIG:C34   1:LIG:H35   1:LIG:C50   1:LIG:C43    1:LIG:H44    1:LIG:C13    1:LIG:H14    1:LIG:C25    1:LIG:C60    1:LIG:H61    1:LIG:H62    1:LIG:H141  </mdatoms>
+							<qmatoms>      10:C        11:H         34:C        35:H        50:C        43:C         44:H         13:C         14:H         25:C         60:C         61:H         62:H        141:H     </qmatoms>
+							<mpoles>       10:C        11:H         34:C        35:H        50:C        43:C         44:H         13:C         14:H         25:C         60:C         61:H         62:H        141:H     </mpoles>
+							<weights>        12           1           12           1          12          12            1           12            1           12           12            1            1            1      </weights>
+							<localframe>  10   50   13 </localframe>
+						</fragment>
+                                                <fragment>
+                                                        <name>BEN_2</name>
+                                                        <mdatoms>  1:LIG:C17    1:LIG:H18    1:LIG:C51   1:LIG:H52    1:LIG:C41   1:LIG:C58   1:LIG:H59    1:LIG:C48    1:LIG:H49    1:LIG:C27    1:LIG:C55    1:LIG:H56    1:LIG:H57    1:LIG:H138  </mdatoms>
+                                                        <qmatoms>     17:C         18:H         51:C         52:H        41:C        58:C        59:H         48:C         49:H         27:C         55:C         56:H         57:H        138:H     </qmatoms>
+                                                        <mpoles>      17:C         18:H         51:C         52:H        41:C        58:C        59:H         48:C         49:H         27:C         55:C         56:H         57:H        138:H     </mpoles>
+                                                        <weights>      12           1            12           1            12           12           1           12            1           12           12           1            1            1       </weights>
+                                                        <localframe>  17   41   48 </localframe>
+                                                </fragment>
+                                                <fragment>
+                                                        <name>BEN_3</name>
+                                                        <mdatoms>  1:LIG:C78    1:LIG:H79    1:LIG:C102  1:LIG:H103   1:LIG:C118  1:LIG:C111  1:LIG:H112   1:LIG:C81    1:LIG:H82    1:LIG:C93    1:LIG:C128   1:LIG:H129   1:LIG:H130   1:LIG:H142  </mdatoms>
+                                                        <qmatoms>     78:C         79:H        102:C       103:H        118:C       111:C       112:H         81:C         82:H         93:C        128:C        129:H        130:H        142:H     </qmatoms>
+                                                        <mpoles>      78:C         79:H        102:C       103:H        118:C       111:C       112:H         81:C         82:H         93:C        128:C        129:H        130:H        142:H     </mpoles>
+                                                        <weights>      12           1            12           1            12           12           1           12            1           12           12           1            1            1       </weights>
+                                                        <localframe> 78  118   81 </localframe>
+                                                </fragment>
+                                                <fragment>
+                                                        <name>BEN_4</name>
+                                                        <mdatoms>  1:LIG:C85    1:LIG:H86    1:LIG:C119  1:LIG:H120   1:LIG:C109   1:LIG:C126  1:LIG:H127  1:LIG:C116   1:LIG:H117   1:LIG:C95    1:LIG:C123   1:LIG:H124   1:LIG:H125   1:LIG:H139  </mdatoms>
+                                                        <qmatoms>     85:C         86:H        119:C       120:H        109:C        126:C       127:H       116:C        117:H         95:C        123:C        124:H        125:H        139:H     </qmatoms>
+                                                        <mpoles>      85:C         86:H        119:C       120:H        109:C        126:C       127:H       116:C        117:H         95:C        123:C        124:H        125:H        139:H     </mpoles>
+                                                        <weights>      12           1            12           1            12           12           1           12            1           12           12           1            1            1       </weights>
+                                                        <localframe> 85  109  116 </localframe>
+                                                </fragment>
+						<fragment>
+							<name>TPH_1</name>
+							<mdatoms>  1:LIG:S4     1:LIG:C23    1:LIG:C28   1:LIG:C20    1:LIG:H21    1:LIG:C30   1:LIG:C32   1:LIG:H33    1:LIG:O12    1:LIG:C37    1:LIG:H38    1:LIG:H39    1:LIG:H137  </mdatoms>
+							<qmatoms>      4:S         23:C         28:C        20:C         21:H         30:C        32:C        33:H         12:O         37:C         38:H         39:H        137:H     </qmatoms>
+							<mpoles>       4:S         23:C         28:C        20:C         21:H         30:C        32:C        33:H         12:O         37:C         38:H         39:H        137:H     </mpoles>
+							<weights>      32           12          12            12           1            12           12           1            16           12            1            1             1      </weights>
+							<localframe>  23   4   32 </localframe>
+						</fragment>
+                                                <fragment>
+                                                        <name>TPH_2</name>
+                                                        <mdatoms>  1:LIG:S72    1:LIG:C91    1:LIG:C96   1:LIG:C88    1:LIG:H89    1:LIG:C98   1:LIG:C100  1:LIG:H101   1:LIG:O80    1:LIG:C105   1:LIG:H106  1:LIG:H107    1:LIG:H140  </mdatoms>
+                                                        <qmatoms>     72:S         91:C         96:C        88:C         89:H         98:C       100:C       101:H         80:O        105:C        106:H       107:H         140:H     </qmatoms>
+                                                        <mpoles>      72:S         91:C         96:C        88:C         89:H         98:C       100:C       101:H         80:O        105:C        106:H       107:H         140:H     </mpoles>
+                                                        <weights>      32           12          12            12           1            12           12           1            16           12            1            1             1      </weights>
+                                                        <localframe>  91   72  100 </localframe>
+						</fragment>
+                                                <fragment>
+                                                        <name>IC_1</name>
+                                                        <mdatoms>  1:LIG:C42    1:LIG:C36    1:LIG:O16   1:LIG:C31    1:LIG:C46    1:LIG:H47   1:LIG:C45   1:LIG:Cl2    1:LIG:C63    1:LIG:Cl5    1:LIG:C64   1:LIG:H65     1:LIG:C53     1:LIG:C54     1:LIG:C66    1:LIG:C40    1:LIG:N3    1:LIG:C68    1:LIG:N67    </mdatoms>
+                                                        <qmatoms>     42:C         36:C         16:O        31:C         46:C         47:H        45:C         2:F        63:C          5:F         64:C        65:H          53:C          54:C          66:C         40:C          3:N        68:C         67:N      </qmatoms>
+                                                        <mpoles>      42:C         36:C         16:O        31:C         46:C         47:H        45:C         2:F        63:C          5:F         64:C        65:H          53:C          54:C          66:C         40:C          3:N        68:C         67:N      </mpoles>
+                                                        <weights>      12           12          16            12           12            1          12          19          12           19          12           1            12            12           12           12          14            12           14       </weights>
+                                                        <localframe>  42   66   45 </localframe>
+                                                </fragment>
+                                                <fragment>
+                                                        <name>IC_2</name>
+                                                        <mdatoms>  1:LIG:C110   1:LIG:C104   1:LIG:O84   1:LIG:C99    1:LIG:C114   1:LIG:H115  1:LIG:C113  1:LIG:Cl70   1:LIG:C131   1:LIG:Cl73   1:LIG:C132  1:LIG:H133    1:LIG:C121    1:LIG:C122    1:LIG:C134   1:LIG:C108   1:LIG:N71   1:LIG:C136   1:LIG:N135    </mdatoms>
+                                                        <qmatoms>    110:C        104:C         84:O        99:C        114:C        115:H        113:C       70:F       131:C         73:F        132:C       133:H         121:C         122:C         134:C        108:C         71:N       136:C        135:N      </qmatoms>
+                                                        <mpoles>     110:C        104:C         84:O        99:C        114:C        115:H        113:C       70:F       131:C         73:F        132:C       133:H         121:C         122:C         134:C        108:C         71:N       136:C        135:N      </mpoles>
+                                                        <weights>      12           12          16            12           12            1          12           19          12            19          12           1            12            12           12           12          14            12           14       </weights>
+                                                        <localframe> 110  134  113 </localframe>
+                                                </fragment>
+					</fragments>
+				</segment>
+			</segments>
+		</molecule>
+	</molecules>
+</topology>

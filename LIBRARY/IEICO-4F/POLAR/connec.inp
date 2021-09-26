@@ -1,0 +1,139 @@
+bond  76  87 
+bond  87  22
+bond  22   8
+bond   8  19
+bond  19  90
+bond  90  76
+bond  77  76
+bond   8   9
+bond  87  94
+bond  94  92
+bond  92  83
+bond  83  22
+bond  94  69
+bond  69  97
+bond  97  74
+bond  74  92
+bond  74  75
+bond  90  15
+bond  15  24
+bond  24  26
+bond  26  19
+bond  24   6
+bond   6  29
+bond  29   1
+bond   1  26
+bond   6   7
+bond  25  13
+bond  13  43
+bond  43  50
+bond  50  34
+bond  34  10
+bond  10  25
+bond  15  25
+bond  13  14
+bond  43  44
+bond  34  35
+bond  10  11
+bond  50  60
+bond  60  61
+bond  60  62
+bond  60 141
+bond  27  48
+bond  48  58
+bond  58  41
+bond  41  51
+bond  51  17
+bond  17  27
+bond  15  27
+bond  48  49
+bond  58  59
+bond  51  52
+bond  17  18
+bond  41  55
+bond  55  56
+bond  55  57
+bond  55 138
+bond  91  96
+bond  96  88
+bond  88  98
+bond  98  72
+bond  72  91
+bond  97  91
+bond  88  89
+bond  96  80
+bond  80 105
+bond 105 106
+bond 105 107
+bond 105 140
+bond  98 100
+bond 100 101
+bond 100 110
+bond 110 122
+bond 122 121
+bond 121  99
+bond  99 104
+bond 104 110
+bond 104  84
+bond 122 134
+bond 134 108
+bond 108  71
+bond 134 136
+bond 136 135
+bond 121 132
+bond 132 131
+bond 131 113
+bond 113 114
+bond 114  99
+bond 132 133
+bond 131  73
+bond 113  70
+bond 114 115
+bond  29  23
+bond  23   4
+bond   4  30
+bond  30  20
+bond  20  28
+bond  28  23
+bond  28  12
+bond  12  37
+bond  37  38
+bond  37  39
+bond  37 137
+bond  20  21
+bond  30  32
+bond  32  33
+bond  32  42
+bond  42  36
+bond  36  31
+bond  31  53
+bond  53  54
+bond  54  42
+bond  36  16
+bond  54  66
+bond  66  40
+bond  40   3
+bond  66  68
+bond  68  67
+bond  31  46
+bond  46  45
+bond  45  63
+bond  63  64
+bond  64  53
+bond  46  47
+bond  45   2
+bond  63   5
+bond  64  65
+ring  76  87  22   8  19  90 
+ring  87  94  92  83  22
+ring  94  69  97  74  92 
+ring  90  15  24  26  19 
+ring  24   6  29   1  26  
+ring  25  13  43  50  34  10 
+ring  27  48  58  41  51  17 
+ring  91  96  88  98  72
+ring 110 122 121  99 104 
+ring 121 132 131 113 114  99 
+ring  23   4  30  20  28
+ring  42  36  31  53  54
+ring  31  46  45  63  64  53
