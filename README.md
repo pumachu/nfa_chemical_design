@@ -9,10 +9,32 @@ The 7 non-fullerene acceptors (NFAs) are shown in the figure below.
 
 The contents in the repository will be introduced as following.
 
-### INPUT_FILES
-This folder contains input files for Gaussian (**GAUSSIAN/**), DDEC6 (**DDEC6/**) and Gromacs (**GROMACS/**) computations.
-In **GROMACS** folder, there are three input files corresponding to the three steps in generating simulated amorphous morphology and cooling:   
+### INPUT_FILES/VOTCA
+This folder contains input files for VOTCA computations. There are three subfolders in VOTCA, which contain input files for three different computations:   
 ```
-a. Geometry optimizaion (em.mdp)  
-b. Heating and compressing (heating.mdp)   
-c. Cooling (cooling.mdp)   
+a. IE_EA: Solid-state ionization energy (IE) and electron affinity (EA). 
+b. S1: Solid-state stabilization of the S1 state.
+c. eh_curve: electron-hole dessociation curve.
+```
+
+### MATERIALS_DATA
+This folder contains data of 26 organic semiconductors investigated in this work. The files in the subdirectory are explained in the table below:  
+
+| Subfolder     | File          | Explanation  |  
+| :-----------: |:-------------:| :-----------:|   
+| **GAS_PHASE_QM**/  |        | Contains inputs of gas-phase DFT computations (b3lyp and camb3lyp); C, A, N stand for cationic, anionic, neutral geometry; s, c, a, n stand for s1 excited, cationic, anionic, neutral electronic states|  
+| b3lyp  | *.com        | Gaussian input file of b3lyp computations|  
+| camb3lyp  | *.com        | Gaussian input file of cam-b3lyp computations|  
+| **VOTCA**/        |         | Contains inputs of VOTCA computations (MD_FILES, MP_FILES and QC_FILES)| 
+| MD_FILES  | system.gro & system.tpr  | Gromacs morphology and topology files |  
+| QC_FILES  | single.xyz or system.xyz  | Molecular geometry of neutral ground state |  
+| MP_FILES  | *.mps  | Files containing the information of atomic multipoles and atomic polarizabilities in GDMA output format. n, e, h, s stand for neutral, anionic, cationic and excited states of the molecules. |  
+| **POLAR**/    |      | Contains atomic polarizability computed using the protocol according to [*PCCP*, 2018, 20, 8554](https://doi.org/10.1039/C7CP08549D).  | 
+|  | connec.inp  | Topology for computing bond charges. Define rings and bonds. |  
+|  | atomic_pol.dat  | Output isotropic atomic polarizabilities. |  
+|  | atomic_polarizabilities_charge.py  | Python code for calculating atomic polarizabilities. |  
+|  | out/*.out  | GDMA outputs (of different electric field).  |  
+
+
+
+
