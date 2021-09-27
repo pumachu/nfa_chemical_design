@@ -18,7 +18,7 @@ c. eh_curve: electron-hole dessociation curve.
 ```
 
 ### MATERIALS_DATA
-This folder contains data of 26 organic semiconductors investigated in this work. The files in the subdirectory are explained in the table below:  
+This folder contains data of 7 NFAs investigated in this work. The files in the subdirectory are explained in the table below:  
 
 | Subfolder     | File          | Explanation  |  
 | :-----------: |:-------------:| :-----------:|   
